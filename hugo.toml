@@ -1,0 +1,38 @@
+baseURL = 'https://tadl.photography/'
+title = 'tadl.photography'
+copyright = "© Tim auf der Landwehr"
+languageCode = "en"
+timeZone = "Europe/Berlin"
+
+
+[module]
+  [module.hugoVersion]
+    min = "0.121.2"
+  [[module.imports]]
+    path = "github.com/nicokaiser/hugo-theme-gallery/v4"
+
+[params]
+  defaultTheme = "dark"
+  [params.author]
+    email = "mail@tadl.eu"
+    name = "Tim auf der Landwehr"
+  [params.socialIcons]
+    instagram = "https://www.instagram.com/tadl.photography"
+    github = "https://github.com/taufderl/tadl.photography/"
+    youtube = "https://www.youtube.com/@tadl.photography"
+    email = "mailto:mail@tadl.eu"
+    linkedin = "https://www.linkedin.com/in/tadl/"
+    website = "https://tadl.eu"
+    #500px = "https://500px.com/p/tadl"
+  
+
+
+[menu]
+  [[menu.footer]]
+    name = "Hugo"
+    url = "https://gohugo.io/"
+    weight = 3
+  [[menu.footer]]
+    name = "Theme"
+    url = "https://github.com/nicokaiser/hugo-theme-gallery/"
+    weight = 3
