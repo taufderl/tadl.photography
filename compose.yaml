@@ -1,0 +1,13 @@
+services:
+  app:
+    build:
+      context: .
+      dockerfile: Dockerfile.dev
+    volumes:
+      - .:/site:Z
+      - gocache:/root/go
+    working_dir: /site
+    command: bash
+
+volumes:
+  gocache:
